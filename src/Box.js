@@ -10,6 +10,7 @@ function Box(props) {
           backgroundColor: props.color,
         }}
       ></div>
+      <button>x</button>
     </div>
   );
 }
