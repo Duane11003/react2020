@@ -1,12 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import ReactDOM from "react-dom";
-import BoxList from "./BoxList";
+import Toggler from './Toggler'
 
 function App() {
   return (
     <div>
-      <p>hello world</p>
-      <BoxList />
+      <Toggler />
     </div>
   );
 }
